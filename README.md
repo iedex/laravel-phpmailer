@@ -15,7 +15,7 @@ composer require "madeinua/laravel-phpmailer"
 or manually add the following to your `composer.json` file:
 
 ```json
-"madeinua/browser-console": "master"
+"madeinua/browser-console": "^1.0"
 ```
 
 You also need to publish the service provider:

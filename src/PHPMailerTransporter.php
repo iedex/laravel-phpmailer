@@ -77,6 +77,7 @@ class PHPMailerTransporter extends AbstractTransport
         }
 
         $this->client->isMail();
+        $this->client->XMailer = ' ';
 
         $headers = [];
 
