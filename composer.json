@@ -1,0 +1,36 @@
+{
+  "name": "madeinua/laravel-phpmailer",
+  "type": "project",
+  "description": "PHPMailer transport for Laravel",
+  "minimum-stability": "dev",
+  "keywords": [
+    "PHP",
+    "PHPMailer",
+    "Laravel",
+    "transport"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artem Parkhomov",
+      "email": "parkhomov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0.0",
+    "laravel/framework": "^8.0|^9.0",
+    "phpmailer/phpmailer": "^6.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelPHPMailer\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelPHPMailer\\PHPMailerServiceProvider"
+      ]
+    }
+  }
+}
