@@ -2,7 +2,7 @@
   "name": "iedex/laravel-phpmailer",
   "type": "project",
   "description": "PHPMailer transport for Laravel",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "keywords": [
     "PHP",
     "PHPMailer",
